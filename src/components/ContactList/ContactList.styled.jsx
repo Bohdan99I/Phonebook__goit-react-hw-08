@@ -2,8 +2,7 @@ import styled from '@emotion/styled';
 
 export const ContactListWrapper = styled.ul`
   list-style: none;
-  padding: 0;
-  
+  padding: 0;  
 `;
 
 export const ContactListItem = styled.li`

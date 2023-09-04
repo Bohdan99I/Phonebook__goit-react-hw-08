@@ -5,8 +5,7 @@ export const Wrapper = styled.div`
   align-items: center;
   gap: 12px;
   padding-right: 12px;
-  font-weight: 700;
-  
+  font-weight: 700;  
 `;
 export const Button = styled.button`
   border-radius: 4px;

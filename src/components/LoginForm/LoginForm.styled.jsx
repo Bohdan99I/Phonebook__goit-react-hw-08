@@ -28,8 +28,5 @@ export const Button = styled.button`
 `;
 export const Input = styled.input`
   border-radius: 4px;
-
   padding: 10px;  
 `;
-
-

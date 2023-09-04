@@ -25,4 +25,5 @@ const Contacts = () => {
     </Wrapper>
   );
 };
+
 export default Contacts;
