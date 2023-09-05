@@ -17,10 +17,8 @@ const Contacts = () => {
     <Wrapper>
       <H2>Phonebook</H2>
       <ContactForm />
-
       <H2>Contacts</H2>
       <Filter />
-
       <ContactList visibleContact={visibleContacts} />
     </Wrapper>
   );

@@ -9,12 +9,14 @@ export const Form = styled.form`
   border-radius: 8px;
   box-shadow: rgb(34, 34, 34) -4px -5px 19px;
 `;
+
 export const Label = styled.label`
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
   gap: 5px;
 `;
+
 export const Button = styled.button`
   display: center;
   margin: 0px auto;
@@ -26,6 +28,7 @@ export const Button = styled.button`
   font-size: 18px;
   cursor: pointer;
 `;
+
 export const Input = styled.input`
   border-radius: 4px;
   padding: 10px;  
