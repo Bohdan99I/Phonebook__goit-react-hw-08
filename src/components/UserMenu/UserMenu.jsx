@@ -7,6 +7,7 @@ import { Wrapper, Button } from './UserMenu.styled';
 export const UserMenu = () => {
   const { user } = useAuth();
   const dispatch = useDispatch();
+
   return (
     <Wrapper>
       <p>Hello, {user.name}</p>
@@ -20,4 +21,3 @@ export const UserMenu = () => {
     </Wrapper>
   );
 };
-
