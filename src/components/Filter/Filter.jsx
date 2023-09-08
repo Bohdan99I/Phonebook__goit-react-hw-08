@@ -6,6 +6,7 @@ import { FilterLabel, FilterInput, WrapperFilter } from './Filter.styled';
 export const Filter = () => {
   const dispatch = useDispatch();
   const filter = useSelector(state => state.filter);
+  
   const handleFilterChange = event => {
     const newFilterValue = event.target.value;
     dispatch(changeFilter(newFilterValue));

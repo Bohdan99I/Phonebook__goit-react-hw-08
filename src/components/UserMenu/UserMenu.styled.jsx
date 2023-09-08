@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   padding-right: 12px;
   font-weight: 700;  
 `;
+
 export const Button = styled.button`
   border-radius: 4px;
   border: 2px solid black;

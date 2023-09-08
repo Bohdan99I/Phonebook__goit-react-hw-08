@@ -3,7 +3,6 @@ import { useAuth } from 'hooks/useAuth';
 import { AuthNavigation } from 'components/AuthNavigation/AuthNavigation';
 import { Navigation } from 'components/Navigation/Navigation';
 import { UserMenu } from 'components/UserMenu/UserMenu';
-
 import { Header } from './AppBar.styled';
 
 export const AppBar = () => {
